@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./swiper.min.css">
+    <script src="./swiper.min.js"></script>
+    <script>
+    function myFunction()
+    {
+    document.body.style.backgroundColor= "green";
+    }
+    </script>
+    <script>
+    function ready() {
+         // your page initialization code here
+         // the DOM will be available here
+       };
+         var mySwiper = new Swiper('.swiper-container', {
+           speed: 400,
+           spaceBetween: 100
+         });
+      </script>
+    <style>
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 30px;
+    }
+
+    </style>
+    <a href="https://www.facebook.com/klnbjj/"><img src="https://scontent.fhkg4-1.fna.fbcdn.net/v/t1.0-9/19030373_10155391028064322_4807580272967714500_n.jpg?oh=6dc84490cb35b5ded463800d84089bca&oe=5A762E46" alt "Failed to Load"></a>
+  </head>
+  <body onload="ready()">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="https://www.google.com.hk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwig1auqkvnWAhUDOY8KHdOTA68QjRwIBw&url=http%3A%2F%2Fwww.falcon-fitness.com%2F2017%2F08%2F&psig=AOvVaw0MUMFe9rPQyjafYY6XbdkE&ust=1508380736100015"></div>
+            <div class="swiper-slide"><img src="https://www.google.com.hk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiRtd-Tk_nWAhVJKo8KHegiD20QjRwIBw&url=http%3A%2F%2Fwww.falcon-fitness.com%2F2016%2F09%2F&psig=AOvVaw0MUMFe9rPQyjafYY6XbdkE&ust=1508380736100015"></div>
+            <div class="swiper-slide"><img src="https://scontent.fhkg4-1.fna.fbcdn.net/v/t31.0-8/21768512_1823201591288290_3225091982833623185_o.jpg?oh=f6bb3e5eb5fa0f16c83b5e52e34f4fee&oe=5A8301ED"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <h1>Hello Bro!</h1>
+    <h2>Profile</h2>
+    <h3>Hi there! You know me. Blah, blah, and so on and so forth.
+    As you know, I go to a great gym called Kowloon BJJ.</h3>
+    <p> Click <a href="https://www.facebook.com/donnie.wan.5">here</a> for info on Donnie, my coach.</p>
+    <button type="button" onclick="myFunction()">Change Color</button>
+
+    <script>
+    function myFunction()
+    {
+    document.body.style.backgroundColor= "green";
+    }
+    </script>
+  </body>
+</html>
